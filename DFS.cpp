@@ -4,7 +4,7 @@
 using namespace std;
 int count=0;
 vector <int> adj[10];
-vector <bool> visited(10,false);
+vector <bool> visited(10,false);//visted nodes
 void Dfs(int s)
 {
     visited[s]=true;
